@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+main {
+    background-color: #FFFFFF;
+    margin: 80px;
+    border-radius: 20px
+}
+section {
+    margin: 40px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 28px;
+    font-weight: 700;
+}
+h2, p, li {
+    line-height: 26px;
+}
+h2 {
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+p {
+    list-style-position: inside;
+    font-size: 16px;
+}
+li {
+    list-style-position: inside;
+    font-size: 16px;
+}
+
+.cima > figure {
+    text-align: center;
+    display: flex;
+    list-style-position: inside;
+    flex-direction: column;
+    justify-content: center;
+}
+.cima > figure > img {
+    margin: 20px;
+    border-radius: 100px;
+}
+.cima > figcaption {
+    
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #8F8F8F;
+    font-size: 12px;
+}
+.legenda {
+    color: #8F8F8F;
+    font-size: 12px;
+}
